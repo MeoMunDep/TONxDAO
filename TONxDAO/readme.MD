@@ -61,15 +61,15 @@ query_id.../user...
 query_id.../user...
 ```
 
-### 3. `wallets.txt` 💼 - Cannot update yet.
+### 3. `wallets.txt` 💼 - TON addresses.
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
 
 ```txt - wallet address
-abc...xyz
-abc...xyz
-abc...xyz
+UQ...
+UQ...
+UQ...
 ```
 
 ### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
