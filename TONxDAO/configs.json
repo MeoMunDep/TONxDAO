@@ -1,9 +1,9 @@
 {
-  "limit": 100,
-  "countdown": 300,
-  "country_time": "en-US",
-  "isDoTasks": true,
-  "isSkipInvalidProxy": true,
-  "delayEachAccount": [1, 81],
-  "connectWallets": true
+  "doTasks": true,
+  "doQuizzes": true,
+  "timeZone": "en-US",
+  "connectWallets": true,
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 100
 }
