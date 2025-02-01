@@ -1,61 +1,51 @@
-📞 Contact
+# 🚀 Bot Setup Instructions
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
 
+---
 
-> If you encounter any issues or have questions, feel free to reach out:
+## Table of Contents
 
-- Contact: [Link](t.me/MeoMunDep)
-- Group: [Link](t.me/KeoAirDropFreeNe)
-- Channel: [Link](t.me/KeoAirDropFreeNee)
+1. [Configuration Files](#configuration-files)
+   - [`configs.json`](#1-configsjson)
+   - [`datas.txt`](#2-datastxt)
+   - [`wallets.txt`](#3-walletstxt)
+   - [`proxies.txt`](#4-proxiestxt)
+2. [Running the Bot](#running-the-bot)
+3. [Contact and Support](#contact-and-support)
 
-> Help me with your referral [Link](https://t.me/tonxdao_bot?start=ref_6713068747)
+---
 
-## 🚀 Getting Started
+## Configuration Files
 
-To get started with the bot, follow these steps:
+### 1. `configs.json` - 📜 Adjust Bot Settings
 
-0. **Dowload NodeJS to run the bot**
-
-Before running the bot, make sure you have the following installed:
-
-- **Node.js** (Version: `22.11.0`)
-- **npm** (Version: `10.9.0`)
-
-Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
-
--> Double click on `setup.bat` for windows or `setup.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
-
-
-1. **Install Dependencies and Modules:**
-
-   ```
-   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws uuid
-   ```
-
-2. **Prepare Configuration Files:**
-
-   > You'll need to set up a few configuration files for the bot to work properly.
-
-## 📁 Configuration Files
-
-### 1. `configs.json` 📜 - Adjust configuration
+This file controls the bot’s behavior. Below is an example configuration:
 
 ```json
 {
-  "limit": 100,
-  "countdown": 300,
-  "country_time": "en-US",
-  "isDoTasks": true,
-  "isSkipInvalidProxy": true,
-  "delayEachAccount": [1, 81],
-  "connectWallets": true
+  "doTasks": true,
+  "doQuizzes": true,
+  "timeZone": "en-US",
+  "connectWallets": true,
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 100
 }
-
-
 ```
 
-### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
+- **Fields Explained:**
+  - `doTasks`: Enable task completion.
+  - `doQuizzes`: Enable quizz completion.
+  - `timeZone`: Time zone setting (e.g., "en-US").
+  - `connectWallets`: Enable wallets connection feature.
+  - `delayEachAccount`: Random delay range (in seconds) between accounts.
+  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
+  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
+
+### 2. `datas.txt` - 🗂️ User Data
+
+Fill the `datas.txt` file with these datas from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
 
 ```txt
 query_id.../user...
@@ -63,29 +53,70 @@ query_id.../user...
 query_id.../user...
 ```
 
-### 3. `wallets.txt` 💼 - TON addresses.
+_Note: Each row for each account_
+
+### 3. `wallets.txt` - 💼 Wallet Addresses
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
+Add your wallet addresses in the following format:
 
-```txt - wallet address
-UQ...
-UQ...
-UQ...
+```txt
+abc...xyz
+abc...xyz
+abc...xyz
 ```
 
-### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
+_Note: Wallet updates are currently not supported._
+
+### 4. `proxies.txt` - 🌐 Proxy List (Optional)
+
+If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
 
 ```txt
 http://user:password@host:port
 https://user:password@host:port
 socks4://user:password@host:port
 socks5://user:password@host:port
+http://host:port
+https://host:port
+socks4://host:port
+socks5://host:port
 ```
 
-💡 Usage:
+_Note: each row for each account_
 
-> You need to `cd` to the file after extract it
-> To run the bot, use the following command: `cd tonxdao-main/tonxdao; node meomundep`
+---
 
-🎇Enjoy!
+## Running the Bot
+
+1. Navigate to the folder containing the bot files:
+
+   ```bash
+   cd /path/to/bot-folder/
+   ```
+
+2. Run the bot using the following command:
+
+```bash
+./meomundep.exe
+```
+
+---
+
+## Contact and Support
+
+- **Help me with your referral** [Referral Link](https://t.me/tonxdao_bot?start=ref_6713068747)
+- **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
+
+If you encounter any issues or have questions, feel free to reach out:
+
+- **Contact:** [Contact Me](https://t.me/MeoMunDep)
+- **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
+- **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
+
+Your support is greatly appreciated! 🐱
+
+---
+
+Enjoy using the bot! 🚀
