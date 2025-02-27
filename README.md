@@ -155,7 +155,7 @@ macOS also requires **Wine** to run `.exe` files:
 
 ## Contact and Support
 
-- **Help me with your referral** [Referral Link](https://t.me/tonxdao_bot?start=ref_6713068747)
+- **Help me with your referral** [Referral Link](https://t.me/tonxdao_bot?start=dao_6713068747_1200584)
 - **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
 If you encounter any issues or have questions, feel free to reach out:
