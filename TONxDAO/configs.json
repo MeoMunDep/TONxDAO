@@ -1,9 +1,13 @@
 {
-  "doTasks": true,
-  "doQuizzes": true,
+  "doTasks": false,
+  "doQuizzes": false,
   "timeZone": "en-US",
-  "connectWallets": true,
+  "connectWallets": false,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100
+  "howManyAccountsRunInOneTime": 100,
+  "answerForQuest": {
+    "DAO registration overview": "anwser1",
+    "DAO registration FAQ": "anwser2"
+  }
 }

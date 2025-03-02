@@ -24,19 +24,24 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 ```json
 {
-  "doTasks": true,
-  "doQuizzes": true,
+  "doTasks": false,
+  "doQuizzes": false,
   "timeZone": "en-US",
-  "connectWallets": true,
+  "connectWallets": false,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100
+  "howManyAccountsRunInOneTime": 100,
+  "answerForQuest": {
+    "DAO registration overview": "anwser1",
+    "DAO registration FAQ": "anwser2"
+  }
 }
 ```
 
 - **Fields Explained:**
   - `doTasks`: Enable task completion.
   - `doQuizzes`: Enable quizz completion.
+  - `answerForQuest`: Answer for each quest.
   - `timeZone`: Time zone setting (e.g., "en-US").
   - `connectWallets`: Enable wallets connection feature.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
