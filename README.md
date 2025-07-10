@@ -29,7 +29,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 {
   "doTasks": false,
   "doQuizzes": false,
-  "timeZone": "en-US",
   "connectWallets": false,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
@@ -45,7 +44,6 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `doTasks`: Enable task completion.
   - `doQuizzes`: Enable quizz completion.
   - `answerForQuest`: Answer for each quest.
-  - `timeZone`: Time zone setting (e.g., "en-US").
   - `connectWallets`: Enable wallets connection feature.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
