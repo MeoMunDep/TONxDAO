@@ -1,7 +1,6 @@
 {
   "doTasks": false,
   "doQuizzes": false,
-  "timeZone": "en-US",
   "connectWallets": false,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
