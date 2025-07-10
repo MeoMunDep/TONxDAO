@@ -135,7 +135,7 @@ Then run:
 ## Contact and Support
 
 * 🤝 **Referral**: [Join here](https://t.me/tonxdao_bot?start=dao_6713068747_1200584)
-* 🛒 **Buy Telegram Accounts**: [Link 1](https://t.me/KeoAirDropFreeNe/312/27801) | [Link 2](https://github.com/MeoMunDep/MeoMunDep)
+* 🛒 **Buy me a coffe**: [Link 1](https://t.me/KeoAirDropFreeNe/312/27801) | [Link 2](https://github.com/MeoMunDep/MeoMunDep)
 * 💬 **Support/Help**:
 
   * [Contact Me](https://t.me/MeoMunDep)
