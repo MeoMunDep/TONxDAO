@@ -1,0 +1,6 @@
+aiohttp
+aiohttp-proxy
+cloudscraper
+colorama
+pysocks
+websocket-client
