@@ -2,7 +2,7 @@
 
 Welcome to the **Python version** of the bot setup guide! Follow the steps below to install and run the bot using `meomundep.py`.
 
-> 📱 **For Mobile Users (Termux):** [View the guide here](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
+📱 **For Mobile Users (Termux):** [View the guide here](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 
 ---
 
