@@ -145,3 +145,5 @@ Then run:
 ---
 
 🚀 **Enjoy using the bot!**
+
+<p align="center"><a href="#-discord-automation-bot-by-meomundep">⬆️ Back to top</a></p>
