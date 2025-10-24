@@ -148,4 +148,4 @@ Then run:
 
 ---
 
-<p align="center"><a href="#-Bot-Setup-Instructions-(Python-Version)">⬆️ Back to top</a></p>
+<p align="center"><a href="#-Bot-Setup-Instructions-Python-Version">⬆️ Back to top</a></p>
